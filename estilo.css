@@ -1,0 +1,81 @@
+
+/* estilo.css */
+
+/* Estilização geral da página */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Rosa claro */
+    background-image: source;
+    color: #880e4f; /* Rosa escuro para o texto */
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*imagem*/
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+/* Estilização do título */
+h1 {
+    color: #c2185b; /* Rosa forte para o título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilização do formulário */
+form {
+    background-color: #f8bbd0; /* Rosa muito claro para o formulário */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilização dos inputs de texto */
+input[type="text"] {
+    display: block;
+    width: calc(100% - 22px); /* Ajusta o input para o tamanho do form */
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #f06292; /* Rosa para a borda dos inputs */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilização do botão de submit */
+input[type="submit"] {
+    background-color: #ec407a; /* Rosa escuro para o botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d81b60; /* Cor do botão quando o mouse passa por cima */
+}
+
+/* Estilização da área de resultado */
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f48fb1; /* Rosa médio para a área de resultado */
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #880e4f; /* Rosa escuro para o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para destacar */
+}
+
